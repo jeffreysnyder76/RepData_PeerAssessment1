@@ -30,6 +30,7 @@ ggplot(total_steps_per_day, aes(x = total_steps)) +
   geom_histogram(binwidth = 1000, fill = "skyblue", color = "black") +
   labs(title = "Total Steps per Day", x = "Total Steps", y = "Frequency")
 
+
 # Mean and median of total steps
 mean_steps <- mean(total_steps_per_day$total_steps)
 median_steps <- median(total_steps_per_day$total_steps)
